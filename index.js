@@ -31,6 +31,6 @@ createBook();
 // Get All Books
 async function getBooks(){
     const books = await Book.find();
-    console.log(books);
+    console.log("Get All Books"+books);
 }
 getBooks();
